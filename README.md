@@ -10,9 +10,9 @@
 ============================================================
 
 # What is MQTT?
-  MQTT means Message Queue Telemetry Transport.
-  MQTT the standard communication protocol for IoT communications.
-  The underlying network protocol for the Internet is TCP/IP, and Message Queue Telemetry   Transport (MQTT), which was created based on the TCP/IP stack.
+  MQTT means ```Message Queue Telemetry Transport```.
+  MQTT is the standard communication protocol for IoT communications.
+  The underlying network protocol for the Internet is TCP/IP, and Message Queue Telemetry Transport (MQTT), which was created based on the TCP/IP stack.
 
 ## Ref
 [MQTT の基本知識[IBM]](https://www.ibm.com/developerworks/jp/iot/library/iot-mqtt-why-good-for-iot/index.html)

@@ -17,6 +17,10 @@ sub_1 = "172.16.120.130/lm75b-1/temp"
 sub_2 = "172.16.120.130/lm75b-1/temp"
 sub_3 = "172.16.120.130/lm75b-1/temp"
 sub_4 = "172.16.120.159/lm75b-1/temp"
+sub_5 = "172.16.120.159/lm75b-1/temp"
+
+# 追加
+sub_6 = "172.16.120.88/lm75b-1/temp"
 
 #brokerのラズパイのIPアドレス
 broker = "172.16.120.148"
@@ -34,6 +38,8 @@ def topic():
     publish.single(sub_2,"p",hostname=broker)
     publish.single(sub_3,"p",hostname=broker)
     publish.single(sub_4,"p",hostname=broker)
+    publish.single(sub_5,"p",hostname=broker)
+    publish.single(sub_6,"p",hostname=broker)
 
 #メイン関数
 def main():

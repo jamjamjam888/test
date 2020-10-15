@@ -12,6 +12,10 @@ sub_1 = "172.16.120.130/lm75b-1/temp"
 sub_2 = "172.16.120.130/lm75b-1/temp"
 sub_3 = "172.16.120.130/lm75b-1/temp"
 sub_4 = "172.16.120.159/lm75b-1/temp"
+sub_5 = "172.16.120.159/lm75b-1/temp"
+
+# 追加
+sub_6 = "172.16.120.88/lm75b-1/temp"
 
 #brokerのラズパイのIPアドレス
 broker = "172.16.120.148"
@@ -30,6 +34,8 @@ def query():
     #msg2 = subscribe.simple(sub_2, hostname=broker, retained=False, msg_count=1)
     #msg3 = subscribe.simple(sub_3, hostname=broker, retained=False, msg_count=1)
     #msg4 = subscribe.simple(sub_4, hostname=broker, retained=False, msg_count=1)
+    #msg5 = subscribe.simple(sub_4, hostname=broker, retained=False, msg_count=1)
+    #msg6 = subscribe.simple(sub_4, hostname=broker, retained=False, msg_count=1)
 
     #localでテスト
     localhost = pub_address
@@ -38,6 +44,7 @@ def query():
 
 #メイン関数
 def main():
+    # query関数を呼び出す
     query()
     #topic送信完了
     print("query受信")

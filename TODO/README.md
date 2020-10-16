@@ -1,5 +1,3 @@
-README.md
-
 # ToDo for Raspi
 - Raspiのセットアップ -> OK
 - Raspiのカバー作成→Cameraカバー付きのをつくる

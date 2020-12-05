@@ -5,7 +5,7 @@
 1. ドキュメントを読んでpaho.mqtt.publish/subscribe と paho.mqtt.clientの違いを理解した.　
 2. MQTTでwhile文でQueryを受け取れるようになった.
 
-# TODO
+### TODO
 
 1. Queryを受け取った後のRaspiの処理を進める
     1. センサで情報取得
